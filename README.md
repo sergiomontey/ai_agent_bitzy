@@ -121,35 +121,6 @@ class AdminTask:
     result_data: Dict[str, Any]      # Task execution results
 ```
 
-## 🛠 Installation
-
-### Standard Installation
-```bash
-git clone https://github.com/yourusername/bitzy-agent.git
-cd bitzy-agent
-pip install -r requirements.txt
-```
-
-### Full Integration Features
-```bash
-pip install requests sqlalchemy redis celery psycopg2-binary
-```
-
-### Production Deployment
-```bash
-# Docker with Redis and PostgreSQL
-docker-compose up -d
-
-# Kubernetes deployment
-kubectl apply -f k8s/bitzy-deployment.yaml
-```
-
-### High-Availability Setup
-```bash
-# Multi-instance deployment with load balancer
-helm install bitzy ./charts/bitzy --set replicas=3
-```
-
 ## 📈 Usage Examples
 
 ### Basic User Management
